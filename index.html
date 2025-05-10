@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Kerri</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav>
+        <div class="navbar navbar-expand-lg fixed-top bg-white p-3">
+            <div class="container">
+                <div class="logo">
+                    <a href="#" class="navbar-brand fs-3 fw-bold">Kerri</a>
+                </div>   
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="naV">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="naV" class="navbar-collapse collapse navbar-nav">
+                    <ul class="nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#Home" class="nav-link text-black">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#About" class="nav-link text-black">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Services" class="nav-link text-black">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Client" class="nav-link text-black">Client</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Portfolio" class="nav-link text-black">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Blog" class="nav-link text-black">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Contact" class="nav-link text-black">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+    </nav>
+
+    <div class="position-fixed top-50 opacity-75 bg-dark text-white p-3 rounded-end">
+        <i class="fa fa-cog fa-spin"></i>
+    </div>
+
+    <section id="Home" class="main">
+        <div class="txt container-fluid ">
+            <div class="d-flex vh-100 justify-content-center align-items-center text-white position-relative">
+                <div class="text-center">
+                    <p class="fs-3 fw-bold">Welcome</p>
+                    <h2 class="display-2 fw-semibold">I <span id="element"></span></h2>
+                    <p class="text-secondary max-width-500">It is a long established fact that a reader will be of a page when established fact looking at its layout.
+                    </p>
+                    <a href="download.svg" download="" class=" rounded-pill p-3 px-5 btn">Download CV</a>
+                    <div class="bill rounded-pill position-absolute">
+                        <div class="dot bg-white rounded-pill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="About" class="About">
+        <div class="container py-5 my-5">
+            <div class="row">
+                <div class="align-items-center d-flex gap-4">
+                    <div class="col-md-6">
+                        <div class="about-img">
+                            <img class="w-100" src="img/about.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="my-4 my-md-0"><span class="fw-bold">About</span> Me</h2>
+                        <h3 class="my-3">Hello! 
+                            <span class="main-color fw-bold">I'M Kerri Deo.</span>
+                        </h3>
+                        <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p class="text-muted my-4">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li><a href="#" class="btn"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#" class="btn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#" class="btn"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#" class="btn"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<section id="Client" class="Client py-5 bg-light">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h2>Our <span class="fw-bold">Clients</span></h2>
+            <p class="text-muted mt-3 mx-auto" style="max-width: 500px">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+        </div>
+
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" 
+                        data-bs-slide-to="0" class="active" aria-current="true" 
+                        aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" 
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" 
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/testi-1.jpg" 
+                             class="rounded-circle mb-4" 
+                             alt="Client 1">
+                        <blockquote class="blockquote text-center px-3 px-md-5">
+                            <p class="fst-italic text-muted mb-4 max-width-500">
+                                "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/testi-2.jpg" 
+                             class="rounded-circle mb-4" 
+                             alt="Client 2">
+                        <blockquote class="blockquote text-center px-3 px-md-5">
+                            <p class="fst-italic text-muted mb-4 max-width-500">
+                                "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="img/testi-3.jpg" 
+                             class="rounded-circle mb-4" 
+                             alt="Client 3">
+                        <blockquote class="blockquote text-center px-3 px-md-5">
+                            <p class="fst-italic text-muted mb-4 max-width-500">
+                                "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" 
+                    data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" 
+                    data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <section id="Portfolio" class="Portfolio">
+        <div class="container py-5 my-5">
+            <div class="text-center">
+                <h2>Our<span class="fw-bold"> Works</span></h2>
+                <p class="text-muted my-4 max-width-500 m-auto">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                    
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li><a href="#" class="btn main-color rounded-4 active">All</a></li>
+                    <li><a href="#" class="btn main-color rounded-4">Seo</a></li>
+                    <li><a href="#" class="btn main-color rounded-4">WebDesign</a></li>
+                    <li><a href="#" class="btn main-color rounded-4">Work</a></li>
+                    <li><a href="#" class="btn main-color rounded-4">WordPress</a></li>
+                </ul>
+            </div>
+            
+            <div class="row">
+                <div class="col-4">
+                    <div class="item text-center py-3">
+                        <img src="img/1.jpg" alt="" class="w-100">
+                        <div class="item-img-overlay text-center">
+                            <h6>Category</h6>
+                            <h6>Project Title</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"><div class="item text-center py-3"><img src="img/6.jpg" alt="" class="w-100"><div class="item-img-overlay text-center"><h6>Category</h6><h6>Project Title</h6></div></div></div>
+                <div class="col-4"><div class="item text-center py-3"><img src="img/2.jpg" alt="" class="w-100"><div class="item-img-overlay text-center"><h6>Category</h6><h6>Project Title</h6></div></div></div>
+                <div class="col-4"><div class="item text-center py-3"><img src="img/3.jpg" alt="" class="w-100"><div class="item-img-overlay text-center"><h6>Category</h6><h6>Project Title</h6></div></div></div>
+                <div class="col-4"><div class="item text-center py-3"><img src="img/4.jpg" alt="" class="w-100"><div class="item-img-overlay text-center"><h6>Category</h6><h6>Project Title</h6></div></div></div>
+                <div class="col-4"><div class="item text-center py-3"><img src="img/5.jpg" alt="" class="w-100"><div class="item-img-overlay text-center"><h6>Category</h6><h6>Project Title</h6></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Blog" class="Blog">
+        <div class="container py-5 my-5">
+            <div class="text-center">
+                <h2>Our<span class="fw-bold"> Works</span></h2>
+                <p class="text-muted my-4 max-width-500 m-auto">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card bg-white text-start p-2 border-0">
+                            <div class="card-img-top">
+                                <img src="img/blog-1.jpg" alt="" class="w-100">
+                            </div>
+
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5 class="fw-bold">There are many variations</h5>
+                                </div>
+                                    <p class="text-muted">11 March 2018 <span class="main-color fw-bold">By Kerri</span></p>
+                                        Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies
+                                    </div>
+                                    <div class="text-start btn fw-bold text-muted">Read More...</div>    
+                        </div>
+                    </div>
+                            <div class="col-4">
+                        <div class="card bg-white text-start p-2 border-0">
+                            <div class="card-img-top">
+                                <img src="img/blog-2.jpg" alt="" class="w-100">
+                            </div>
+                            <div class="card-body">
+                            <div class="card-title">
+                                <h5 class="fw-bold">There are many variations</h5>
+                            </div>
+                            <p class="text-muted">11 March 2018 <span class="main-color fw-bold">By Kerri</span></p>
+                            Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies
+                        </div>
+                        <div class="text-start btn fw-bold text-muted">Read More...</div>    
+                        </div>
+                            </div>
+                            <div class="col-4">
+                        <div class="card bg-white text-start p-2 border-0">
+                            <div class="card-img-top">
+                                <img src="img/blog-3.jpg" alt="" class="w-100">
+                            </div>
+                            <div class="card-body">
+                            <div class="card-title">
+                                <h5 class="fw-bold">There are many variations</h5>
+                            </div>
+                            <p class="text-muted">11 March 2018 <span class="main-color fw-bold">By Kerri</span></p>
+                            Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies
+                        </div>
+                        <div class="text-start btn fw-bold text-muted">Read More...</div>    
+                        </div>
+
+                            </div>
+                    </div>     
+        </div>
+    </section>
+    
+    <section id="Contact" class="Contact">
+                <div class="container py-3 my-3">
+                        <div class="text-center">
+                            <h2 class="fw-bold">Contact<span class="fw-normal"> us</span></h2>
+                                <p class="text-muted my-4 max-width-500 m-auto">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                        </div>
+                        
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="text-center">
+                                <i class="fa-solid fa-mobile-screen-button my-3"></i>
+                                <h5 class="fs-4 fw-bold">Call Us On</h5>
+                                <p class="text-muted">+985 123 7856</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <i class="fa-solid fa-mobile-screen-button my-3"></i>
+                                <h5 class="fs-4 fw-bold">Call Us On</h5>
+                                <p class="text-muted">+985 123 7856</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <i class="fa-solid fa-mobile-screen-button my-3"></i>
+                                <h5 class="fs-4 fw-bold">Call Us On</h5>
+                                <p class="text-muted">+985 123 7856</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="d-flex justify-content-between my-3 gap-5">
+                            <input class="form-control p-2" type="text" placeholder="Your Name">
+                            <input class="form-control p-2" type="email" placeholder="Your Email">
+                        </div>
+                            <input class="form-control my-3" type="text" placeholder="Your Subject">
+                            <textarea placeholder="Your Message" class="form-control my-3"></textarea>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn">SEND MESSAGE</button>
+                            </div>
+                        </form>
+                </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>    
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Developer', 'Designer'],
+            typeSpeed: 80,
+            loop: true
+        });
+    </script>
+</body>
+</html>
